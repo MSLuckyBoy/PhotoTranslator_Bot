@@ -1,0 +1,53 @@
+# locales/en/LC_MESSAGES/messages.po
+#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-10-19 00:46+0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: main.py:44
+msgid "start_msg"
+msgstr ""
+"Hey {first_name}!\nI was created to help you. "
+"I can translate text into different languages. "
+"To do this, just send some text or take a picture of the text and send it to me."
+
+#: main.py:62
+msgid "scanning_msg"
+msgstr "Wait please! Scanning in progress..."
+
+#: main.py:68 main.py:123
+msgid "scanning_error_msg"
+msgstr ""
+"An error occurred while scanning. Try again!\n\n"
+"You can report the error in this chat:\n{support_link}"
+
+#: main.py:90
+msgid "choose_lang_msg"
+msgstr "Select a language and click the <b>Translate</b> button:"
+
+#: main.py:117
+msgid "rescanning_msg"
+msgstr "Wait please! Rescanning in progress..."
+
+#: main.py:149
+msgid "long_text_error_msg"
+msgstr "The text is too long. Please split the text and resend!"
+
+#: main.py:180
+msgid "record_audio_msg"
+msgstr "Please wait! Recording audio..."

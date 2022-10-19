@@ -1,0 +1,17 @@
+venv
+prod_settings.py
+
+db.sqlite3
+dump.rdb
+
+**/migrations/**
+!**/migrations
+!**/migrations/__init__.py
+
+__pycache__/
+*/__pycache__/
+.pyc
+*.pyc
+
+media/*
+!*media

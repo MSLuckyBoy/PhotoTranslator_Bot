@@ -1,0 +1,53 @@
+# locales/uz/LC_MESSAGES/messages.po
+#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-10-19 00:46+0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: main.py:44
+msgid "start_msg"
+msgstr ""
+"Hey {first_name}!\nMen sizga yordam berish uchun yaratilganman. "
+"Men matnni turli tillarga tarjima qila olaman."
+"Buning uchun menga istalgan matnni yuboring yoki matnni suratga olib, menga yuboring."
+
+#: main.py:62
+msgid "scanning_msg"
+msgstr "Iltimos, kuting! Skanerlash davom etmoqda..."
+
+#: main.py:68 main.py:123
+msgid "scanning_error_msg"
+msgstr ""
+"Skanerlash jarayonida xatolik yuz berdi. Qaytadan urinib ko'ring!\n\n"
+"Yuz bergan xatolik haqida ushbu chatda xabar qoldirishingiz mumkin:\n{support_link}"
+
+#: main.py:90
+msgid "choose_lang_msg"
+msgstr "Tilni tanlang va <b>Translate</b> tugmasni bosing:"
+
+#: main.py:117
+msgid "rescanning_msg"
+msgstr "Iltimos, kuting! Qayta skanerlash davom etmoqda..."
+
+#: main.py:149
+msgid "long_text_error_msg"
+msgstr "Matn juda uzun. Iltimos, matnni ikkiga bo'ling va qayta yuboring!"
+
+#: main.py:180
+msgid "record_audio_msg"
+msgstr "Iltimos kuting! Audio yozilmoqda..."

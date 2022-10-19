@@ -1,0 +1,53 @@
+# locales/ru/LC_MESSAGES/messages.po
+#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-10-19 00:46+0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: main.py:44
+msgid "start_msg"
+msgstr ""
+"Привет, {first_name}!\nЯ был создан чтобы помочь вам. "
+"Я умею переводить текста в разные языки. "
+"Для этого просто отправьте какой-нибудь текст или же сфотографируете текст и отправьте его мне."
+
+#: main.py:62
+msgid "scanning_msg"
+msgstr "Подождите, пожалуйста! Выполняется сканирование..."
+
+#: main.py:68 main.py:123
+msgid "scanning_error_msg"
+msgstr ""
+"При сканировании произошла ошибка. Попробуйте еще раз!\n\n"
+"Вы можете сообщить об ошибке в этой чате:\n{support_link}"
+
+#: main.py:90
+msgid "choose_lang_msg"
+msgstr "Выберите язык и нажмите кнопку <b>Translate</b>:"
+
+#: main.py:117
+msgid "rescanning_msg"
+msgstr "Подождите, пожалуйста! Выполняется повторное сканирование..."
+
+#: main.py:149
+msgid "long_text_error_msg"
+msgstr "Текст слишком длинный. Пожалуйста, разделите текст и отправьте повторно!"
+
+#: main.py:180
+msgid "record_audio_msg"
+msgstr "Подождите, пожалуйста! Аудио записывается..."
